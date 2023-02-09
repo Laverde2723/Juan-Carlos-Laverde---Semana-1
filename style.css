@@ -34,6 +34,7 @@ header .logotipo{
     font-weight: normal;
     color: var(--rojo);
     font-size: 40px;
+    margin-right: 50px;
 }
 
 header nav a {
