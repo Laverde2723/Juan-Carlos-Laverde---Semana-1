@@ -5,16 +5,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Ejercicio Semana 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <title>Ejercicio Semana 1 - netflix</title>
 </head>
 <body>
     <header id="mi-header">
-            <h1>Mi logo</h1>
-        <nav>
-             <li>Segun Aristoteles</li>
-             <li>Mas vale pajaro en mano que 9 meses y un enano</li>
-             <li>Si dios quiere hoy se come</li>
-        </nav>
+            <div class="contenedor">
+                <h2 class="logotipo">Netflix</h2>
+                <nav>
+                    <a href="#" class="active">Inicio</a>
+                    <a href="#">Series</a>
+                    <a href="#">Peliculas</a>
+                    <a href="#">Novedades populares</a>
+                    <a href="#">Mi lista</a>
+                    <a href="#">Explora por idioma</a>
+                </nav>
+            </div>
     </header>
+
+    <main>
+        <div class="pelicula-principal">
+            <div class="contenedor">
+                <h3 class="titulo">Naruto</h3>
+                <p class="descripcion">
+                    las historias de una zorra y un vato con depre
+                </p>
+                <button role="button" class="boton"><i class="fas fa-play"></i>Reproducior</button>
+                <button role="button" class="boton"><i class="fas fa-info-circle"></i>Mas informacion</button>
+            </div>
+        </div>
+
+        <div class="series-recomendadas contenedor">
+            <div class="contenedor-titulo">
+                <h3>Series recomendadas</h3>
+                <div class="indicadores">
+                    <button></button>
+                    <button></button>
+                    <button></button>
+                    <button></button>
+                </div>
+            </div>
+
+            <div class="contenedor-principal">
+                <button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+
+                <div class="contenedor-carousel">
+                    <div class="carousel">
+                        <div class="series">
+                            <a href="#"><img src="img/1.png" alt=""></a>
+                        </div>
+                        <div class="series">
+                            <a href="#"><img src="img/2.png" alt=""></a>
+                        </div>
+                        <div class="series">
+                            <a href="#"><img src="img/3.png" alt=""></a>
+                        </div>
+                        <div class="series">
+                            <a href="#"><img src="img/4.png" alt=""></a>
+                        </div>
+                        <div class="series">
+                            <a href="#"><img src="img/5.png" alt=""></a>
+                        </div>
+                        <div class="series">
+                            <a href="#"><img src="img/6.png" alt=""></a>
+                        </div>
+                        <div class="series">
+                            <a href="#"><img src="img/7.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+
+                <button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+            </div>  
+        </div>
+    </main>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
