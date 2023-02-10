@@ -34,13 +34,13 @@ header .logotipo{
     font-weight: normal;
     color: var(--rojo);
     font-size: 40px;
-    margin-right: 50px;
+    margin-right: 30px;
 }
 
 header nav a {
     color: #aaa;
     text-decoration: none;
-    margin-right: 20px;
+    margin-right: 24px;
 }
 
 header nav a:hover,
@@ -197,4 +197,72 @@ header nav a.active{
 .series-recomendadas .contenedor-carousel .carousel .series img{
     width: 100%;
     vertical-align: top;
+}
+
+/*---------- Carousel ----------*/
+
+footer  .text{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+/*---------- Footer ----------*/
+
+.footer-general{
+    margin-left: 260px;
+    margin-top: 100px;
+}
+
+.general-footer-container{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.icons {
+    display: flex;
+    column-gap: 27px;
+}
+
+a{
+    text-decoration: none;
+    color: #929292;
+    font-size: 7pt;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.text-footer{
+    display: grid;
+    width: 60%;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 33% 33% 33%;
+    justify-items: start;
+    gap: 6px;
+    column-gap: 40px;
+}
+
+.marca-agua{
+    color: #929292;
+    font-size: 6pt;
+    margin-bottom: 40px;
+}
+
+.boton-servicio{
+    cursor: pointer;
+    padding: 5px;
+    color: #929292;
+    background-color: #929292;
+    background-color: #141414;
+    border-width: 0.5px;
+    border-style: solid;
+    font-size: 7pt;
+    margin-bottom: 20px;
+}
+
+.boton-servicio:hover{
+    color: #fff;
 }
